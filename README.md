@@ -27,3 +27,41 @@
 * If the number is divisible by, output ping-pong
  * **Example Input** 30
  * **Example Output** "ping-pong"
+
+ # _Ping-Pong_
+
+ #### _A site that plays ping-pong with the user, 8/19/16_
+
+ #### By _**Alvaro Flores**_
+
+ ## Description
+
+ _This site gets the user's inputted number and replaces each number that is divisible by 3 ,5 and 15 with the words "ping", "pong" and "ping-Pong"_
+
+ ## Setup/Installation Requirement
+
+ * _Open github_
+ * _git clone and start playing_
+
+
+ ## Known Bugs
+
+ _There are no known bugs at the moment if there are any please contact me_
+
+ ## Support and contact details
+
+ _If there is a bug contact me and ill get started on fixing it right away_
+
+ ## Technologies Used
+
+ _Javascript_
+ _HTML_
+ _Jquery_
+ _Bootstrap_
+ _CSS_
+
+ ### License
+
+ *This software is license under MIT*
+
+ Copyright (c) 2016 **_Alvaro Flores @Epicodus_**
