@@ -1,15 +1,11 @@
 var pingPong = function(numbers){
 	// debugger;
-	var words = ['ping', 'pong', 'ping-pong'];
 	var input = [];
-	for (i = 1; i <= numbers; i++){
-		input += i;
-		if (i < (numbers)){
-			input += ' ';
-	}  if (numbers % 3 === 0){
-		numbers.push('ping');
-	}
-	}
+	for ( var i = 1; i <= numbers; i++){
+		input += i
+		if (i % 3 === 0){
+}
+}
 	return input
 }
 // -------------->front end work<---------------
