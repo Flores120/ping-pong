@@ -1,11 +1,13 @@
 var pingPong = function(numbers){
-	// debugger;
+	debugger;
 	var words = ['ping', 'pong', 'ping-pong']
 	var input = [];
 	for (i = 1; i <= numbers; i++){
 		input += i;
 		if (i < (numbers)){
 			input += ', ';
+	} else if (numbers % 3 === 0){
+		numbers.splice(words(0));
 	}
 	}
 	return input
