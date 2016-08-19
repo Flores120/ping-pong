@@ -1,4 +1,8 @@
-* This program will start at 1 and count up until stated other wise. 
+* It can count up to the number thats been inputed.
+* **Example Input** [5]
+* **Example Output** [1,2,3,4,5]
+
+* This program will start at 1 and count up until stated other wise.
 
 * If the inputed number is greater than 1000 show error.
 * **Example Input** 1244

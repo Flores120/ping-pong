@@ -2,12 +2,13 @@ var pingPong = function(numbers){
 	// debugger;
 	var words = ['ping', 'pong', 'ping-pong']
 	var input = [];
-	for (var i = 0; i <= numbers; i ++){
-		if (number % 3 === 0){
-			alert(words);
-		}
+	for (i = 1; i <= numbers; i++){
+		input += i;
+		if (i < (numbers)){
+			input += ', ';
 	}
-	return numbers
+	}
+	return input
 }
 // -------------->front end work<---------------
 $(document).ready(function(){
