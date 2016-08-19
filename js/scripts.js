@@ -1,12 +1,17 @@
 var pingPong = function(numbers){
-	// debugger;
-	var input = [];
-	for ( var i = 1; i <= numbers; i++){
-		input += i
-		if (i % 3 === 0){
-}
-}
-	return input
+var input = [];
+var output = [];
+for ( var i = 1; i <= numbers; i++){
+if (i % 15 === 0){
+			input.push('pin-pong');
+} else if ( i % 5 === 0){
+	input.push('pong');
+} else if (i % 3 === 0){
+	input.push('ping');
+} else {
+	input.push(i);
+		}
+	}	return input
 }
 // -------------->front end work<---------------
 $(document).ready(function(){
