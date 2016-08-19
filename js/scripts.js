@@ -6,6 +6,8 @@ var pingPong = function(numbers){
 		input += i;
 		if (i < (numbers)){
 			input += ' ';
+	}  if (numbers % 3 === 0){
+		numbers.push('ping');
 	}
 	}
 	return input
