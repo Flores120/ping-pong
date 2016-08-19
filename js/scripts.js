@@ -18,6 +18,7 @@ $(document).ready(function(){
 	$('form#ping').submit(function(event){
 		var userInput = parseInt($('input#number').val());
 		var results = pingPong(userInput);
+		$('.results').children().remove();
 		$('.results').append('<p>' + results + '</p>');
 		event.preventDefault();
 
